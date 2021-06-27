@@ -3,7 +3,7 @@ import { ContextApi } from 'contexts/Localization/types'
 
 const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   {
-    label: t('Home'),
+    label: t('NGHome'),
     icon: 'HomeIcon',
     href: '/',
   },
@@ -30,12 +30,12 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     ],
   },
   {
-    label: t('Farms'),
+    label: t('NGFarms'),
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: t('Pools'),
+    label: t('NGPools'),
     icon: 'PoolIcon',
     href: '/pools',
   },
@@ -105,7 +105,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
       },
       {
         label: t('Github'),
-        href: 'https://github.com/pancakeswap',
+        href: 'https://github.com/gupnik',
       },
       {
         label: t('Docs'),
@@ -113,7 +113,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
       },
       {
         label: t('Blog'),
-        href: 'https://pancakeswap.medium.com',
+        href: 'https://guptanikhil.medium.com',
       },
       {
         label: t('Merch'),
